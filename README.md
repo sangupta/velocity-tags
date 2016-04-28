@@ -6,6 +6,16 @@ have created and used in multiple projects over time.
 
 ## Available Directives
 
+* `atomicNum` - writes the value of AtomicInteger or AtomicLong
+* `date` - converts given epoch millis to Date and displays it as String
+* `encodeURIComponent` - Encodes the given value as URI encoded component
+* `escapeHTML` - writes a HTML escaped version of the given value
+* `gson` - writes the Gson based JSON value of the given object
+* `mapGet` - writes the value of the provided key from the given Map instance
+* `pageURI` - strips off the scheme and domain part from a URL before writing it
+* `readableByteSize` - convert the given number to a readable byte-size string
+* `readableTime` - convert the given millis to a readable time-based string
+
 ## License
 
 ```
